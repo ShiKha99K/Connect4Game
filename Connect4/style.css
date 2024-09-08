@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.game-container {
+    margin: 20px auto;
+    width: 300px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(7, 40px);
+    grid-template-rows: repeat(6, 40px);
+    gap: 5px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.status {
+    margin-top: 20px;
+}
+
+#statusMessage {
+    font-size: 18px;
+}
